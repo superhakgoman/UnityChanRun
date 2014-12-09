@@ -1,25 +1,3 @@
 Base path: /Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-1--1597910572
+Pipe name: \\.\pipe\UnityShaderCompiler-1--1600515628
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=1012 outsize=1442 ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=5310 outsize=1573 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=5310 outsize=1113 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=2905 outsize=1451 kw=POINT ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=2905 outsize=1186 kw=POINT ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=2719 outsize=995 kw= ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=2719 outsize=551 kw= ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=4780 outsize=1042 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=4780 outsize=546 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=2905 outsize=1160 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=2905 outsize=1015 kw=DIRECTIONAL ok=1

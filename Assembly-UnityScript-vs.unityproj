@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CourseManager.js" />
      <Compile Include="Assets\Scripts\PlayerController.js" />
+     <Compile Include="Assets\Scripts\Sphere.js" />
      <Compile Include="Assets\Scripts\UI.js" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

@@ -5,8 +5,12 @@ private var anim : Animator;
 private var timer : float = 0.0f;
 private var isStarted = false;
 private var isRotating = false;
+private var isRotateOrdered = false;
 
 private var rDir : Vector3;
+
+private var crossRoadPositionX : float;
+private var crossRoadPositionZ : float;
 
 private var velocity : Vector3 = Vector3(0, 0, 0);
 
@@ -32,14 +36,15 @@ function Update () {
 		setVelocity();
 		anim.SetBool("Run", true);
 	}
+	var h : float = Input.GetAxis ("Horizontal");
 	if(Input.GetKeyDown(KeyCode.LeftArrow) && isRotating == false){
 		rDir = transform.TransformDirection(Vector3.left);
-		isRotating = true;
+		isRotateOrdered = true;
 //		anim.SetBool("Left", true);
 	}
 	else if(Input.GetKeyDown(KeyCode.RightArrow) && isRotating == false){
 		rDir = transform.TransformDirection(Vector3.right);
-		isRotating = true;
+		isRotateOrdered = true;
 //		anim.SetBool("Right", true);
 	}
 	if(isRotating){
@@ -52,8 +57,8 @@ function Update () {
 			transform.rotation = rotatedDirection;
 			isRotating = false;
 			setVelocity();
-			anim.SetBool("Left", false);
-			anim.SetBool("Right", false);
+//			anim.SetBool("Left", false);
+//			anim.SetBool("Right", false);
 		}
 	}
 	else{
@@ -63,4 +68,22 @@ function Update () {
 
 function setVelocity(){
 	velocity = transform.TransformDirection(Vector3(0, 0, runSpeed));
+}
+
+function OnTriggerEnter (collider : Collider) {
+	if(isRotateOrdered == true && collider.gameObject.CompareTag("CrossRoad") == true){
+		transform.position.x = collider.gameObject.transform.position.x;
+		transform.position.z = collider.gameObject.transform.position.z;
+		isRotating = true;
+		isRotateOrdered = false;
+	}
+}
+
+function OnCollisionEnter (collision : Collision){
+	if(collision.gameObject.CompareTag("RedSphere")){
+		runSpeed = 0.0f;
+		setVelocity();
+		anim.SetBool("Run", false);
+		anim.SetBool("Blocked", true);
+	}
 }

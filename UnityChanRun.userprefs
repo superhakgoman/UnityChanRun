@@ -2,12 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.js">
     <Files>
-      <File FileName="Assets/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs" Line="85" Column="38" />
       <File FileName="../2D00/Assets/MoleKill.js" Line="1" Column="1" />
       <File FileName="../../../Downloads/Control.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/UI.js" Line="1" Column="1" />
-      <File FileName="../Practice00/Assets/Script/Pause.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerController.js" Line="43" Column="33" />
+      <File FileName="Assets/Scripts/PlayerController.js" Line="1" Column="1" />
+      <File FileName="../Practice00/Assets/Script/BulletManager.js" Line="1" Column="1" />
+      <File FileName="../Practice00/Assets/Script/BombScript.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
