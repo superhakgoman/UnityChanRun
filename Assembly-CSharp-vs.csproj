@@ -46,16 +46,37 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Addons\UnityChan\Scripts\AutoBlink.cs" />
      <Compile Include="Assets\Addons\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\Addons\UnityChan\Scripts\FaceUpdate.cs" />
+     <Compile Include="Assets\Addons\UnityChan\Scripts\IKCtrlRightHand.cs" />
      <Compile Include="Assets\Addons\UnityChan\Scripts\IdleChanger.cs" />
-     <Compile Include="Assets\Addons\UnityChan\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Addons\UnityChan\Scripts\RandomWind.cs" />
+     <Compile Include="Assets\Addons\UnityChan\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\Addons\UnityChan\Scripts\SpringCollider.cs" />
+     <Compile Include="Assets\Addons\UnityChan\Scripts\SpringManager.cs" />
      <Compile Include="Assets\Addons\UnityChan\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\Addons\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\Addons\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\AudioSourceController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\BlockController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\BrokenBlockController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\CoinController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\Demo.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\IntroCameraController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\LoadingController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\Loop.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\PointController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\SceneNameAttribute.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\StartController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Demo\Scripts\TimeController.cs" />
+     <Compile Include="Assets\Addons\UnityChan2D\Scripts\UnityChan2DController.cs" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Addons\UnityChan2D\Demo\Sounds\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\Addons\texturepackA\shaders\bumpedspecmap.shader" />
-     <None Include="Assets\Addons\UnityChan\license.txt" />
+     <None Include="Assets\Addons\UnityChan\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />

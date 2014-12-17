@@ -52,8 +52,9 @@
      <Compile Include="Assets\Scripts\UI.js" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Addons\UnityChan2D\Demo\Sounds\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\Addons\texturepackA\shaders\bumpedspecmap.shader" />
-     <None Include="Assets\Addons\UnityChan\license.txt" />
+     <None Include="Assets\Addons\UnityChan\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
      <None Include="Assets\Addons\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />

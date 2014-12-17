@@ -1,3 +1,53 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Pipe name: \\.\pipe\UnityShaderCompiler-1--1600515628
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=1159 outsize=1001 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=438 outsize=1195 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=438 outsize=1826 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=358 outsize=583 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=358 outsize=497 kw= ok=1
+Cmd: preprocess
+  insize=785 outsize=709 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=412 outsize=790 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=412 outsize=747 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1171 outsize=1013 ok=1
+Cmd: preprocess
+  insize=774 outsize=697 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=412 outsize=790 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=412 outsize=747 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=776 outsize=699 ok=1
+Cmd: preprocess
+  insize=1177 outsize=1019 ok=1
+Cmd: preprocess
+  insize=662 outsize=1282 ok=1
+Cmd: preprocess
+  insize=681 outsize=605 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=412 outsize=790 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=412 outsize=747 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=908 outsize=777 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=412 outsize=790 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=412 outsize=747 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=358 outsize=583 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=358 outsize=497 kw= ok=1
+Cmd: preprocess
+  insize=788 outsize=711 ok=1
+Cmd: preprocess
+  insize=1157 outsize=999 ok=1
